@@ -4,7 +4,7 @@
    {
     
 
-      public $api_key = '5e29c2f7d3f843ca8e052610171709'; // Your API key
+      public $api_key = '*****************'; // Your API key
 
       public function request($link,$data) { // REQUEST AI CALL
         $post = array_merge(array('key' => $this->api_key), $data);
